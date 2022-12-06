@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce RNDM</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+                <!-- lo hice en JS-->
+            </div>
+        </main>
+
+        <aside>
+            <header>
+                <h1 class="logo">E-commmerce RNDM</h1>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <button id="todos" class="boton-menu boton-categoria active">Todos los productos</button>
+                    </li>
+                    <li>
+                        <button id="notebooks" class="boton-menu boton-categoria"> Notebooks<i class="bi bi-laptop"></i></button>
+                    </li>
+                    <li>
+                        <button id="celulares" class="boton-menu boton-categoria">Celulares<i class="bi bi-phone"></i></button>
+                    </li>
+                    <li>
+                        <button id="auriculares" class="boton-menu boton-categoria">Auriculares<i class="bi bi-headphones"></i></button>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito" href="carrito.html">
+                            <i class="bi bi-cart-fill"></i> Carrito <span id="numerito" class="numerito">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© 2022 Nicolas Olivet</p>
+            </footer>
+        </aside>
+
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
