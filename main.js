@@ -64,7 +64,7 @@ const productos = [
     {
         id: "celular-01",
         titulo: "Celular 01",
-        imagen: "./images/celulares/samsung1.jpg",
+        imagen: "./images/celulares/samsung1.png",
         categoria: {
             nombre: "Celulares",
             id: "celulares"
@@ -74,7 +74,7 @@ const productos = [
     {
         id: "celular-02",
         titulo: "Celular 02",
-        imagen: "./images/celulares/samsung1.jpg",
+        imagen: "./images/celulares/samsung1.png",
         categoria: {
             nombre: "Celulares",
             id: "celulares"
@@ -84,7 +84,7 @@ const productos = [
     {
         id: "celular-03",
         titulo: "Celular 03",
-        imagen: "./images/celulares/samsung1.jpg",
+        imagen: "./images/celulares/samsung1.png",
         categoria: {
             nombre: "Celulares",
             id: "celulares"
@@ -94,7 +94,7 @@ const productos = [
     {
         id: "celular-04",
         titulo: "Celular 04",
-        imagen: "./images/celulares/samsung1.jpg",
+        imagen: "./images/celulares/samsung1.png",
         categoria: {
             nombre: "Celulares",
             id: "celulares"
@@ -104,7 +104,7 @@ const productos = [
     {
         id: "celular-05",
         titulo: "Celular 05",
-        imagen: "./images/celulares/samsung1.jpg",
+        imagen: "./images/celulares/samsung1.png",
         categoria: {
             nombre: "Celulares",
             id: "celulares"
@@ -114,7 +114,7 @@ const productos = [
     {
         id: "celular-06",
         titulo: "Celular 06",
-        imagen: "./images/celulares/samsung1.jpg",
+        imagen: "./images/celulares/samsung1.png",
         categoria: {
             nombre: "Celulares",
             id: "celulares"
@@ -124,7 +124,7 @@ const productos = [
     {
         id: "celular-07",
         titulo: "Celular 07",
-        imagen: "./images/celulares/samsung1.jpg",
+        imagen: "./images/celulares/samsung1.png",
         categoria: {
             nombre: "Celulares",
             id: "celulares"
@@ -134,7 +134,7 @@ const productos = [
     {
         id: "celular-08",
         titulo: "Celular 08",
-        imagen: "./images/celulares/samsung1.jpg",
+        imagen: "./images/celulares/samsung1.png",
         categoria: {
             nombre: "Celulares",
             id: "celulares"
