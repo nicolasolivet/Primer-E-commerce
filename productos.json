@@ -1,0 +1,221 @@
+[
+    {
+        "id": "notebook-01",
+        "titulo": "Notebook 01",
+        "imagen": "./images/notebooks/mac1.jpeg",
+        "categoria": {
+            "nombre": "Notebooks",
+            "id": "notebooks"
+        },
+        "precio": 250000,
+        "cantidad": 0
+    },
+    {
+        "id": "notebook-02",
+        "titulo": "Notebook 02",
+        "imagen": "./images/notebooks/mac1.jpeg",
+        "categoria": {
+            "nombre": "Notebooks",
+            "id": "notebooks"
+        },
+        "precio": 250000,
+        "cantidad": 0
+    },
+    {
+        "id": "notebook-03",
+        "titulo": "Notebook 03",
+        "imagen": "./images/notebooks/mac1.jpeg",
+        "categoria": {
+            "nombre": "Notebooks",
+            "id": "notebooks"
+        },
+        "precio": 250000,
+        "cantidad": 0
+    },
+    {
+        "id": "notebook-04",
+        "titulo": "Notebook 04",
+        "imagen": "./images/notebooks/mac1.jpeg", 
+        "categoria": {
+            "nombre": "Notebooks",
+            "id": "notebooks"
+        },
+        "precio": 250000,
+        "cantidad": 0
+    },
+    {
+        "id": "notebook-05",
+        "titulo": "Notebook 05",
+        "imagen": "./images/notebooks/mac1.jpeg",
+        "categoria": {
+            "nombre": "Notebooks",
+            "id": "notebooks"
+        },
+        "precio": 250000,
+        "cantidad": 0
+    },
+    {
+        "id":"notebook-06",
+        "titulo": "Notebook 06",
+        "imagen": "./images/notebooks/mac1.jpeg",
+        "categoria": {
+            "nombre": "Notebooks",
+            "id":"notebooks"
+        },
+        "precio": 250000,
+        "cantidad": 0
+    },
+    {
+        "id": "celular-01",
+        "titulo": "Celular 01",
+        "imagen": "./images/celulares/samsung1.png",
+        "categoria": {
+            "nombre": "Celulares",
+            "id": "celulares"
+        },
+        "precio": 60000,
+        "cantidad": 0
+    },
+    {
+        "id": "celular-02",
+        "titulo": "Celular 02",
+        "imagen": "./images/celulares/samsung1.png",
+        "categoria": {
+            "nombre": "Celulares",
+            "id": "celulares"
+        },
+        "precio": 60000,
+        "cantidad": 0
+    },
+    {
+        "id": "celular-03",
+        "titulo": "Celular 03",
+        "imagen": "./images/celulares/samsung1.png",
+        "categoria": {
+            "nombre": "Celulares",
+            "id": "celulares"
+        },
+        "precio": 60000,
+        "cantidad": 0
+    },
+    {
+        "id": "celular-04",
+        "titulo": "Celular 04",
+        "imagen": "./images/celulares/samsung1.png",
+        "categoria": {
+            "nombre": "Celulares",
+            "id": "celulares"
+        },
+        "precio": 60000,
+        "cantidad": 0
+    },
+    {
+        "id": "celular-05",
+        "titulo": "Celular 05",
+        "imagen": "./images/celulares/samsung1.png",
+        "categoria": {
+            "nombre": "Celulares",
+            "id": "celulares"
+        },
+        "precio": 60000,
+        "cantidad": 0
+    },
+    {
+        "id": "celular-06",
+        "titulo": "Celular 06",
+        "imagen": "./images/celulares/samsung1.png",
+        "categoria": {
+            "nombre": "Celulares",
+            "id": "celulares"
+        },
+        "precio": 60000
+    },
+    {
+        "id": "celular-07",
+        "titulo": "Celular 07",
+        "imagen": "./images/celulares/samsung1.png",
+        "categoria": {
+            "nombre": "Celulares",
+            "id": "celulares"
+        },
+        "precio": 60000,
+        "cantidad": 0
+    },
+    {
+        "id": "celular-08",
+        "titulo": "Celular 08",
+        "imagen": "./images/celulares/samsung1.png",
+        "categoria": {
+            "nombre": "Celulares",
+            "id": "celulares"
+        },
+        "precio": 60000,
+        "cantidad": 0
+    },
+    {
+        "id": "auricular-01",
+        "titulo": "Auricular 01",
+        "imagen": "./images/auriculares/auricular1.png",
+        "categoria": {
+            "nombre": "Auriculares",
+            "id": "auriculares"
+        },
+        "precio": 15000,
+        "cantidad": 0
+    },
+    {
+        "id": "auricular-02",
+        "titulo": "Auricular 02",
+        "imagen": "./images/auriculares/auricular1.png",
+        "categoria": {
+            "nombre": "Auriculares",
+            "id": "auriculares"
+        },
+        "precio": 15000
+    },
+    {
+        "id": "auricular-03",
+        "titulo": "Auricular 03",
+        "imagen": "./images/auriculares/auricular1.png",
+        "categoria": {
+            "nombre": "Auriculares",
+            "id": "auriculares"
+        },
+        "precio": 15000,
+        "cantidad": 0
+    },
+    {
+        "id": "auricular-04",
+        "titulo": "Auricular 04",
+        "imagen": "./images/auriculares/auricular1.png",
+        "categoria": {
+            "nombre": "Auriculares",
+            "id": "auriculares"
+        },
+        "precio": 15000,
+        "cantidad": 0
+    },
+    {
+        "id": "auricular-05",
+        "titulo": "Auricular 05",
+        "imagen": "./images/auriculares/auricular1.png",
+        "categoria": {
+            "nombre": "Auriculares",
+            "id": "auriculares"
+        },
+        "precio": 15000,
+        "cantidad": 0
+    },
+    {
+        "id": "auricular-06",
+        "titulo": "Auricular 06",
+        "imagen": "./images/auriculares/auricular1.png",
+        "categoria": {
+            "nombre": "Auriculares",
+            "id": "auriculares"
+        },
+        "precio": 15000,
+        "cantidad": 0
+    }
+
+]
