@@ -35,10 +35,10 @@ function cargarProductos() {
 
                     Toastify({
                         text: "Producto agregado con éxito",
-                        duration: 1000,
+                        duration: 2000,
                         close: true,
                         gravity: "bottom", 
-                        position: "right", 
+                        position: "left", 
                         stopOnFocus: true, 
                         style: {
                           background: "linear-gradient(to right, #00b09b, #96c93d)",
@@ -87,10 +87,10 @@ function mostrarCategoria(productos) {
 
                         Toastify({
                             text: "Producto agregado con éxito",
-                            duration: 1000,
+                            duration: 2000,
                             close: true,
                             gravity: "bottom", 
-                            position: "right", 
+                            position: "left", 
                             stopOnFocus: true, 
                             style: {
                               background: "linear-gradient(to right, #00b09b, #96c93d)",
