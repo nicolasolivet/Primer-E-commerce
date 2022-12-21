@@ -78,11 +78,29 @@ function eliminarDelCarrito (productosEnCarrito, id) {
     localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
 }
 
-botonVaciar.addEventListener("click", vaciarCarrito);
+botonVaciar.addEventListener("click", vaciarCarrito); 
 function vaciarCarrito() {
-    productosEnCarrito.length = 0;
-    localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
-    cargarProductosCarrito();
+
+    Swal.fire({
+        icon: 'warning',
+        iconColor: '#dc3545', 
+        title: 'Seguro/a queres vaciar el carrito?',
+        text: 'Se eliminaran todos los productos cargados.',
+        showDenyButton: true,
+        showCloseButton: true, 
+        confirmButtonText: 'Si, vaciar',
+        denyButtonText: 'No, seguir comprando',
+        confirmButtonColor: '#7066e0',
+        denyButtonColor: '#333333',
+        // timer: 1500
+      }).then((result) => {
+        if (result.isConfirmed) {
+          Swal.fire('Se ha vaciado el carrito con éxito!', '', 'success');
+          productosEnCarrito.length = 0;
+          localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
+          cargarProductosCarrito();
+        } 
+      })
 }
 
 function montoTotal() {
@@ -92,13 +110,21 @@ function montoTotal() {
 
 botonComprar.addEventListener("click", comprarCarrito);
 function comprarCarrito() {
+    
+    Swal.fire({
+        icon: 'success',
+        title: 'Muchas gracias por tu compra.',
+        text: 'Su compra se realizó con éxito.',
+        timer: 3000,
+    })
+
     productosEnCarrito.length = 0;
     localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
 
-    contenedorCarritoVacio.classList.add("disabled");
+    contenedorCarritoVacio.classList.remove("disabled");
     contenedorCarritoProductos.classList.add("disabled");
     contenedorCarritoAcciones.classList.add("disabled");
-    contenedorCarritoComprado.classList.remove("disabled");
+    // contenedorCarritoComprado.classList.remove("disabled");
 
 }
 

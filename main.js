@@ -27,16 +27,28 @@ function cargarProductos() {
 
                 contenedorProductos.append(div);
 
-                // actualizarBotonesAgregar();
                 const boton = document.getElementById(`${producto.id}`);
                 boton.addEventListener('click', () => {
+                    
+                    
                     agregarAlCarrito(productos, producto.id);
+
+                    Toastify({
+                        text: "Producto agregado con éxito",
+                        duration: 1000,
+                        close: true,
+                        gravity: "bottom", 
+                        position: "right", 
+                        stopOnFocus: true, 
+                        style: {
+                          background: "linear-gradient(to right, #00b09b, #96c93d)",
+                        }
+                      }).showToast();
+
                 });
             })
             mostrarCategoria(productos);
-        })
-    // actualizarBotonesAgregar();    
-    
+        })  
 }
 
 function mostrarCategoria(productos) {
@@ -72,6 +84,18 @@ function mostrarCategoria(productos) {
                     const boton = document.getElementById(`${producto.id}`);
                     boton.addEventListener('click', () => {
                         agregarAlCarrito(productos, producto.id);
+
+                        Toastify({
+                            text: "Producto agregado con éxito",
+                            duration: 1000,
+                            close: true,
+                            gravity: "bottom", 
+                            position: "right", 
+                            stopOnFocus: true, 
+                            style: {
+                              background: "linear-gradient(to right, #00b09b, #96c93d)",
+                            }
+                          }).showToast();
                     });
                 })
             
@@ -86,7 +110,6 @@ function mostrarCategoria(productos) {
 cargarProductos();
 
 let productosEnCarrito;
-
 let productosEnCarritoLS = localStorage.getItem("productos-en-carrito")
 
 
@@ -99,6 +122,7 @@ if (productosEnCarritoLS) {
 
 function agregarAlCarrito(productos, id) {
    
+    
     const productoAgregado = productos.find(producto => producto.id === id);
     console.log(productosEnCarrito)
     if (productosEnCarrito.some(producto => producto.id === id)) {
