@@ -41,7 +41,7 @@ function cargarProductos() {
                         position: "left", 
                         stopOnFocus: true, 
                         style: {
-                          background: "linear-gradient(to right, #00b09b, #96c93d)",
+                          background: "linear-gradient(to right, #333333, #257374, #5bb52f)",
                         }
                       }).showToast();
 
@@ -86,16 +86,16 @@ function mostrarCategoria(productos) {
                         agregarAlCarrito(productos, producto.id);
 
                         Toastify({
-                            text: "Producto agregado con éxito",
-                            duration: 2000,
-                            close: true,
-                            gravity: "bottom", 
-                            position: "left", 
-                            stopOnFocus: true, 
-                            style: {
-                              background: "linear-gradient(to right, #00b09b, #96c93d)",
-                            }
-                          }).showToast();
+                        text: "Producto agregado con éxito",
+                        duration: 2000,
+                        close: true,
+                        gravity: "bottom", 
+                        position: "left", 
+                        stopOnFocus: true, 
+                        style: {
+                          background: "linear-gradient(to right, #333333, #257374, #5bb52f)",
+                        }
+                      }).showToast();
                     });
                 })
             
