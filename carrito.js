@@ -51,7 +51,21 @@ function cargarProductosCarrito() {
 
             const boton = document.getElementById(`${producto.id}`);
                 boton.addEventListener('click', () => {
-                    eliminarDelCarrito(productosEnCarrito, producto.id);
+                    
+                 eliminarDelCarrito(productosEnCarrito, producto.id);
+                    
+                 Toastify({
+                        text: "Producto eliminado con éxito",
+                        duration: 2000,
+                        close: true,
+                        gravity: "bottom", 
+                        position: "left", 
+                        stopOnFocus: true, 
+                        style: {
+                          background: "linear-gradient(to right, #333333, #257374, #5bb52f)",
+                        }
+                      }).showToast();
+                   
                 });
         })
     
